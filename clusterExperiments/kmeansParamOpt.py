@@ -15,7 +15,7 @@ def clustInd2ClustMember(clusterIdx):
 
 
 X=np.load("NormalizedHRVdata.npy")
-#print X
+print X
 
 kSet=range(2,8)
 for k in kSet:
